@@ -29,4 +29,11 @@ De esta manera, puedes arrancar un motor **de forma progresiva**, aumentando poc
 ✅ Arranque controlado en sistemas solares 
 ✅ Control de cargas inductivas medianas
 
+🛠 Parámetros configurables
+| Función               | Qué hace                                    |
+| --------------------- | ------------------------------------------- |
+| `setPulseWidth(us)`   | Duración del pulso para disparar TRIAC (µs) |
+| `setInitialDelay(us)` | Retardo inicial desde cruce por cero        |
+| `setFinalDelay(us)`   | Retardo final (cuando la rampa termina)     |
+| `setRampStep(us)`     | Cuánto se reduce el retardo en cada ciclo   |
 
