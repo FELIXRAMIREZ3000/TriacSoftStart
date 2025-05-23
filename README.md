@@ -29,7 +29,7 @@ De esta manera, puedes arrancar un motor **de forma progresiva**, aumentando poc
 ✅ Arranque controlado en sistemas solares 
 ✅ Control de cargas inductivas medianas
 
-🛠 Parámetros configurables
+## 🛠 Parámetros configurables
 | Función               | Qué hace                                    |
 | --------------------- | ------------------------------------------- |
 | `setPulseWidth(us)`   | Duración del pulso para disparar TRIAC (µs) |
